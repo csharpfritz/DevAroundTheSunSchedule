@@ -10,7 +10,7 @@
 
 		start: function () {
 
-			fetch("/js/schedule.js").then(response => response.text())
+			fetch("js/schedule.js").then(response => response.text())
 				.then(response => {
 					widget.schedule = JSON.parse(response, JSON.dateParser).sessions;
 					widget.updateSchedule();
