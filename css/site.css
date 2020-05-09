@@ -1,0 +1,43 @@
+﻿body {
+	background-color: steelblue;
+	padding: 3px;
+}
+
+* {
+	font-size: 1.05em;
+	font-family: Arial;
+	color: white;
+}
+
+p, b, h3, span {
+ display: block;
+}
+
+h3 {
+width:270px;
+background: #FFF;
+color: steelblue;
+text-align: center;
+padding: 3px;
+margin: 0;
+}
+
+u { display: block; width: 260px; text-align: right;}
+
+#widget, #now {
+	width: 270px;
+	max-height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+p {
+	margin: 0;
+	padding: 5px;
+	border-bottom: 1px solid #FFF;
+}
+
+p:last-child {
+	border: none;
+}
+
