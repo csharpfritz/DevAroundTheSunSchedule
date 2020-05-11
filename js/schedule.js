@@ -188,8 +188,8 @@
 			"start": "2020-05-13T08:35:00.000Z"
 		},
 		{
-			"title": "A Love Letter To HTML",
-			"speaker": "Lemon 🍋",
+			"title": "Mr. Potato Head Branding",
+			"speaker": "Christina Aldan",
 			"start": "2020-05-13T09:10:00.000Z"
 		},
 		{
