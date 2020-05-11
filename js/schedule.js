@@ -58,9 +58,9 @@
 			"start": "2020-05-12T17:25:00.000Z"
 		},
 		{
-			"title": "",
-			"speaker": "",
-			"start": ""
+			"title": "Polytechnical Careering",
+			"speaker": "Ted Neward",
+			"start": "2020-05-12T18:00:00.000Z"
 		},
 		{
 			"title": "Battling Ants in Your Pants - If You're Wearing Any",
