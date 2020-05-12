@@ -35,24 +35,19 @@
 
 		updateSchedule: function () {
 
-			//console.log("Analyzing time");
 			var dt = new Date();
-			for (var item of widget.sessions) {
-				//console.log(`Start: ${item.start}, Now: ${dt}`)
-				if (item.start < dt) {
+			// for (var item of widget.sessions) {
+			// 	if (item.start < dt) {
 					widget.sessions = [];
-					//console.log("clearing sessions");
-					break;
-				}
-			}
+			// 		break;
+			// 	}
+			// }
 
 
 			var added = false;
-			//console.log("analyzing schedule");
 			for (var item of widget.schedule) {
 
 				if (item.start > dt && widget.sessions.length < widget.displayCount) {
-				//	console.log(`Adding session ${item.title}`);
 					widget.sessions.push(item);
 					added = true;
 				}
