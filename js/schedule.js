@@ -68,8 +68,8 @@
 			"start": "2020-05-12T18:35:00.000Z"
 		},
 		{
-			"title": "A playful approach to domain language",
-			"speaker": "Marco Heimeshoff",
+			"title": "Keeping Up...",
+			"speaker": "Jonathan Mills",
 			"start": "2020-05-12T19:10:00.000Z"
 		},
 		{
