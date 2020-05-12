@@ -58,9 +58,9 @@
 			"start": "2020-05-12T17:25:00.000Z"
 		},
 		{
-			"title": "",
-			"speaker": "",
-			"start": ""
+			"title": "Polytechnical Careering",
+			"speaker": "Ted Neward",
+			"start": "2020-05-12T18:00:00.000Z"
 		},
 		{
 			"title": "Battling Ants in Your Pants - If You're Wearing Any",
@@ -68,8 +68,8 @@
 			"start": "2020-05-12T18:35:00.000Z"
 		},
 		{
-			"title": "A playful approach to domain language",
-			"speaker": "Marco Heimeshoff",
+			"title": "Keeping Up...",
+			"speaker": "Jonathan Mills",
 			"start": "2020-05-12T19:10:00.000Z"
 		},
 		{
@@ -188,8 +188,8 @@
 			"start": "2020-05-13T08:35:00.000Z"
 		},
 		{
-			"title": "A Love Letter To HTML",
-			"speaker": "Lemon 🍋",
+			"title": "Mr. Potato Head Branding",
+			"speaker": "Christina Aldan",
 			"start": "2020-05-13T09:10:00.000Z"
 		},
 		{
