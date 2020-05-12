@@ -1,0 +1,1 @@
+var workerInterval = setInterval(function() { postMessage(''); }, 15000);

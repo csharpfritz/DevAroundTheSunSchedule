@@ -14,12 +14,24 @@
 				.then(response => {
 					widget.schedule = JSON.parse(response, JSON.dateParser).sessions;
 					widget.updateSchedule();
-					timerThread = window.setInterval(widget.updateSchedule, 30000);
+
+					// timerThread = window.setInterval(widget.updateSchedule, 5000);
+
+					// Use a webworker for timeouts - increases reliability
+					// From: https://stackoverflow.com/a/54414529/271330
+					var worker = new Worker('./js/worker.js');	// Change timeout in the .js file. Currently: 15 seconds (15000ms)
+					worker.onmessage = widget.handleWorkerTimeout;
 			});
 
 		},
 
 		sessions: [],
+
+		// Handle any tasks within here which need to be done with the timer fires
+		handleWorkerTimeout: function() {
+			widget.updateSchedule();
+		},
+
 
 		updateSchedule: function () {
 
@@ -44,7 +56,6 @@
 			if (added) {
 				widget.updateUI();
 			}
-
 		},
 
 		updateUI: function () {
