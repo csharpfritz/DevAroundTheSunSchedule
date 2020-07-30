@@ -95,13 +95,13 @@
 		{
 			"title": "Migrating .NET Framework Web Apps to Azure",
 			"speaker": "Carey Payette",
-			"start": "2020-07-30T23:10:00.000Z"
+			"start": "2020-07-30T23:20:00.000Z"
 		},
 
 		{
 			"title": "Building & Debugging Microservices faster using Kubernetes and Visual Studio",
 			"speaker": "Shayne Boyer",
-			"start": "2020-07-30T23:40:00.000Z"
+			"start": "2020-07-30T23:50:00.000Z"
 		}
 		
 	]
