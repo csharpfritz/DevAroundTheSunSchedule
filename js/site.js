@@ -102,9 +102,12 @@
 				}
 
 				var dt = new Date();
-				for (var item of widget.schedule) {
-					if (item.start < dt && moment(item.start).add(25,'m').toDate() >= dt) {
+				for (var i=0; i<widget.schedule.length;i++) {
+					if (i == widget.schedule.length-1) {
 						AddItem(n, item, false);
+					}
+					else if (widget.schedule[i].start < dt && widget.schedule[i+1].start >= dt) {
+						AddItem(n, widget.schedule[i], false);
 						return;
 					}
 				}
