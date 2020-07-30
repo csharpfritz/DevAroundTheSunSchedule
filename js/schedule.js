@@ -3,8 +3,21 @@
 	"sessions": [
 
 		{
+			"title": "Keynote Walkthrough",
+			"speaker": "Beth Massi, Scott Hunter, David Fowler, Brady Gaster",
+			"start": "2020-07-27T15:00:00.000Z"
+		},
+
+		{
+			"title": "Dinner",
+			"speaker": "Jeff Fritz",
+			"start": "2020-07-28T22:00:00.000Z"
+		},
+
+		{
 			"title": "Welcome to .NET Conf: Focus on Microservices",
 			"speaker": "Scott Hunter & David Fowler",
+			"start_test": "2020-07-27T19:00:00.000Z",
 			"start": "2020-07-30T15:00:00.000Z"
 		},
 
@@ -70,25 +83,25 @@
 		{
 			"title": "API Communication in Microservices with Azure API Management and Azure Functions",
 			"speaker": "LaBrina Loving",
-			"start": "2020-07-30T22:00:00.000Z"
+			"start": "2020-07-30T22:10:00.000Z"
 		},
 
 		{
 			"title": "Evolving .NET Framework Monoliths with .NET 5 and Kubernetes",
 			"speaker": "Elton Stoneman",
-			"start": "2020-07-30T22:30:00.000Z"
+			"start": "2020-07-30T22:40:00.000Z"
 		},
 
 		{
 			"title": "Migrating .NET Framework Web Apps to Azure",
 			"speaker": "Carey Payette",
-			"start": "2020-07-30T23:00:00.000Z"
+			"start": "2020-07-30T23:10:00.000Z"
 		},
 
 		{
 			"title": "Building & Debugging Microservices faster using Kubernetes and Visual Studio",
 			"speaker": "Shayne Boyer",
-			"start": "2020-07-30T23:30:00.000Z"
+			"start": "2020-07-30T23:40:00.000Z"
 		}
 		
 	]
